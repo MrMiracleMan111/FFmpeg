@@ -36,6 +36,7 @@
 #endif /* HAVE_SYS_TIME_H */
 #if HAVE_WINSOCK2_H
 #include <winsock2.h>
+#include <WinError.h>
 #elif HAVE_SYS_SELECT_H
 #include <sys/select.h>
 #endif /* HAVE_WINSOCK2_H */

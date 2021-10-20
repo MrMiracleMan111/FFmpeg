@@ -242,6 +242,7 @@ static int jpeg_parse_packet(AVFormatContext *ctx, PayloadContext *jpeg,
             return AVERROR_INVALIDDATA;
         }
         dri = AV_RB16(buf);
+        av_log(ctx, AV_LOG_ERROR, "dri: %x F/L/Restart Count: %x \n", dri, AV_RB16(buf + 2));
         buf += 4;
         len -= 4;
         type &= ~0x40;

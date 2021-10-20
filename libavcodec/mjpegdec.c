@@ -1815,6 +1815,7 @@ static int mjpeg_decode_dri(MJpegDecodeContext *s)
     if (get_bits(&s->gb, 16) != 4)
         return AVERROR_INVALIDDATA;
     s->restart_interval = get_bits(&s->gb, 16);
+    s->restart_interval = 40;
     s->restart_count    = 0;
     av_log(s->avctx, AV_LOG_DEBUG, "restart interval: %d\n",
            s->restart_interval);
