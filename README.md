@@ -34,6 +34,9 @@ and in the [wiki](https://trac.ffmpeg.org).
 
 Coding examples are available in the **doc/examples** directory.
 
+## Vivitar Drone Use
+RTSP streaming address for Vivitar Drone: rtsp://192.168.99.1:7070/webcam
+
 ## License
 
 FFmpeg codebase is mainly LGPL-licensed with optional components licensed under
