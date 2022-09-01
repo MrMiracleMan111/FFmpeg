@@ -36,6 +36,7 @@ Coding examples are available in the **doc/examples** directory.
 
 ## Vivitar Drone Use
 RTSP streaming address for Vivitar Drone: rtsp://192.168.99.1:7070/webcam
+rtsp://192.168.1.1:7070/webcam.hd264
 
 ## License
 
