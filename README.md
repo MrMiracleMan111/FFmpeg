@@ -35,10 +35,11 @@ and in the [wiki](https://trac.ffmpeg.org).
 Coding examples are available in the **doc/examples** directory.
 
 ## Vivitar Drone Use
-RTSP streaming address for Vivitar Drone: rtsp://192.168.99.1:7070/webcam
+RTSP streaming address for Vivitar Drone: rtsp://192.168.1.1:7070/webcam
 rtsp://192.168.1.1:7070/webcam.hd264
 
-ffmpeg.exe -y -i rtsp://192.168.99.1:7070/webcam -vframes 1 ./do.jpg
+(Wait for Wifi to be "Connected" not "Connecting")
+ffmpeg.exe -y -i rtsp://192.168.1.1:7070/webcam -vframes 1 ./do.jpg
 
 ## License
 
